@@ -23,7 +23,7 @@ export default function Navbar() {
             {/* <img src="../images/logo.png" alt="bootstim" loading="lazy" /> */}
 
             <img
-              src={require("./logo.png")}
+              src={require("../images/logo.png")}
               alt="bootstim"
               loading="lazy"
               style={{
