@@ -24,8 +24,9 @@ export default function Page2() {
         <div className="col-md-6">
           <p
             style={{
-              paddingRight: "50px",
+              paddingRight: "80px",
               fontSize: "16px",
+              textAlign: "justify",
             }}
           >
             we are a passionate team of digital marketing enthusiasts dedicated

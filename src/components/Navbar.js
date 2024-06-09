@@ -19,7 +19,13 @@ export default function Navbar() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <a className="navbar-brand mt-2 mt-lg-0" href="#">
+          <a
+            className="navbar-brand mt-2 mt-lg-0"
+            href="# "
+            style={{
+              paddingLeft: "80px",
+            }}
+          >
             {/* <img src="../images/logo.png" alt="bootstim" loading="lazy" /> */}
 
             <img
@@ -35,7 +41,7 @@ export default function Navbar() {
           <ul
             className="navbar-nav me-auto mb-2 mb-lg-0"
             style={{
-              marginLeft: "200px",
+              marginLeft: "250px",
             }}
           >
             <li className="nav-item">
@@ -71,7 +77,7 @@ export default function Navbar() {
         </div>
 
         <div className="d-flex align-items-center">
-          <div className="dropdown">
+          <div className="dropdown mx-4">
             <button
               className="btn btn-light"
               style={{
@@ -80,6 +86,18 @@ export default function Navbar() {
               }}
             >
               Get Started
+            </button>
+          </div>
+
+          <div className="dropdown">
+            <button
+              className="btn btn-light"
+              style={{
+                border: "1px solid black",
+                borderRadius: "40px",
+              }}
+            >
+              <i class="fa fa-bell" aria-hidden="true"></i>
             </button>
           </div>
         </div>

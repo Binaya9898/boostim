@@ -197,6 +197,7 @@ export default function Home() {
               style={{
                 height: "250px",
                 width: "800px",
+                paddingRight: "40px",
                 //   marginTop: "-10px",
               }}
             />
